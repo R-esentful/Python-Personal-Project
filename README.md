@@ -1,3 +1,4 @@
 # Python Personal Project
--Discord bot (On going)
--Py Cal
+- Discord bot (On going)
+- Py Cal
+- Guessing Game
