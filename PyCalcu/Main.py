@@ -14,20 +14,20 @@ def Main():
         n2 = int(input("Enter N2:"))
         print("Answer: {}".format(Meth.Add(n1,n2)))
     elif user_choice == 2:
-        print("You have chosen Addition!")
+        print("You have chosen Subtraction!")
         n1 = int(input("Enter N1:"))
         n2 = int(input("Enter N2:"))
-        print("Answer: {}".format(Meth.Add(n1,n2)))
+        print("Answer: {}".format(Meth.Sub(n1,n2)))
     elif user_choice == 3:
-        print("You have chosen Addition!")
+        print("You have chosen Multiplication!")
         n1 = int(input("Enter N1:"))
         n2 = int(input("Enter N2:"))
-        print("Answer: {}".format(Meth.Add(n1,n2)))
+        print("Answer: {}".format(Meth.Multi(n1,n2)))
     elif user_choice == 4:
-        print("You have chosen Addition!")
+        print("You have chosen Division!")
         n1 = int(input("Enter N1:"))
         n2 = int(input("Enter N2:"))
-        print("Answer: {}".format(Meth.Add(n1,n2)))
+        print("Answer: {}".format(Meth.Division(n1,n2)))
     elif user_choice == 5:
         print("Thank you!")
         exit()
