@@ -1,2 +1,3 @@
-# Python-Personal-Project
-Python personal projects :)
+# Python Personal Project
+-Discord bot (On going)
+-Py Cal
