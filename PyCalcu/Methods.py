@@ -1,4 +1,7 @@
-class Methods:
+import os
+import sys
+
+class Meth:
 
     def Add(n1,n2):
         return n1+n2
@@ -17,3 +20,4 @@ class Methods:
             return n1 / n2
         else:
             print("Invalid Input. Please Try again!")
+
