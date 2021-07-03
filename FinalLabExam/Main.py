@@ -1,4 +1,8 @@
-from Class import PMethod as PM
+import os
+import sys
+sys.path.append(".")
+
+from FinalLabExam.Class import PMethod as PM
 
 class Main:
     def MMethod():
