@@ -66,6 +66,7 @@ class PMethod:
             
 
     def Histroy(UName):
+        total = 0
         print("You have chosen: History!")
         Questions = ["What was the shortest war in human history?",
         "How long did the war between England and Zanzibar last?",
@@ -80,7 +81,7 @@ class PMethod:
         "1945"]
 
         QNum = 1
-        Choices = {"1": ["a. Pacquiao vs Mosley","b. The war between England and Zanzibar","c. Vietnam War"],"2":["a. Between 1 to 3 hours","b. Between 38 & 45 minutes","c. 10 minutes"],"3":["a. 15 years","b. 20 years","c. 116 years"],"4":["a. The Beagle","b. The Eagle","c. The Beetles"],"5":["a. 1945","b. 2000","1888"]}
+        Choices = {"1": ["a. Pacquiao vs Mosley","b. The war between England and Zanzibar","c. Vietnam War"],"2":["a. Between 1 to 3 hours","b. Between 38 & 45 minutes","c. 10 minutes"],"3":["a. 15 years","b. 20 years","c. 116 years"],"4":["a. The Beagle","b. The Eagle","c. The Beetles"],"5":["a. 1945","b. 2000","c. 1888"]}
         Qanswer = ["b","b","c","a","a"]
         for x in Questions:
 
